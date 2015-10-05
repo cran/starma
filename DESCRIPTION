@@ -1,0 +1,17 @@
+Package: starma
+Type: Package
+Title: Modelling STARMA Processes
+Version: 1.1
+Date: 2015-10-05
+Author: Felix Cheysson
+Maintainer: Felix Cheysson <felix@cheysson.fr>
+Description: Statistical functions to identify, estimate and diagnose a STARMA model.
+License: GPL-2
+Imports: Rcpp (>= 0.11.1), ggplot2, scales, graphics, stats
+LinkingTo: Rcpp, RcppArmadillo
+Depends:
+Suggests: spdep
+NeedsCompilation: yes
+Packaged: 2015-10-05 11:27:26 UTC; PhEMI
+Repository: CRAN
+Date/Publication: 2015-10-05 17:07:47
