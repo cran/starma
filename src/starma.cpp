@@ -95,7 +95,7 @@ Rcpp::List starmaCPP(const arma::mat& data, const Rcpp::List& wlist, arma::mat a
 	
 	model["residuals"] = residuals(data, wlist, model);
 	model["loglik"] = loglik(data, model);
-	model["bic"] = -2 * Rcpp::as<double>(model["loglik"]) + log(data.n_elem) * (ar + ma);
+	model["bic"] = -2 * Rcpp::as<double>(model["loglik"]) + log((double)data.n_elem) * (ar + ma);
 	
 	return model;
 

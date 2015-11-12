@@ -1,4 +1,4 @@
-38a87fac389e8158cf6e6e5f534b110f *DESCRIPTION
+d37d384792a16c2926d25043a6efaa2a *DESCRIPTION
 688d3a2b1609701e3ac9d9780756b3c1 *NAMESPACE
 5d512aaf52168ef36b1d66831241e51b *R/RcppExports.R
 3093de5b4a3468c8d905b4bc7c980e7a *R/stacf.R
@@ -11,17 +11,17 @@ a3a72ac45c74df2ae6c4ec215546fed5 *R/stpacf.R
 541df1bd39c17167d704c4b05e4dc55f *R/summary.starma.R
 e1f38f5eaad4fc396a0fb84e86cb6311 *data/nb_mat.rda
 924f47fca527a654021396ae40e21776 *man/nb_mat.Rd
-4dcd36dd41e1a9cb195943305ef2fed3 *man/stacf.Rd
+69d28fe627462683e084cb28627c5e9c *man/stacf.Rd
 29a788fb1c7aacb6d51022973d4be1c1 *man/starma-internal.Rd
-3a4aa4ce3bafc4833cf797aeca8b3e28 *man/starma-package.Rd
+d34e926291458e8efcded770a057125b *man/starma-package.Rd
 d82f86472b8a35f213990ef03a61521d *man/starma.Rd
 bfc602decd9983bedee16ea848cdd741 *man/stcenter.Rd
-a3e5299d985f920da734f71e73f526bd *man/stcor.test.Rd
+ea478e51bb91f24865be8fb42c2d1695 *man/stcor.test.Rd
 694eaea61b16c6cb4ec576fe7fce85ec *man/stcov.Rd
 8cb0491eb93f74f0baf8d1a4f3b97dff *man/stplot.Rd
 7f3a9ff83cd6afd1aa6952e90b10f462 *man/summary.starma.Rd
 2a6f9e9e044a78154d3cfda5936d6f48 *src/Makevars
 8d46d69896a1f1d31ed76035a0e49d67 *src/Makevars.win
 4920d8c292c451c0b2c88bb2638ab81a *src/RcppExports.cpp
-a3b8e61ad38465a0ceeee4e268fed052 *src/starma.cpp
+2a44514b9b758d47df33b2072626bed1 *src/starma.cpp
 4b38829c246cc4bd44466a5df9afe812 *src/stcor.cpp

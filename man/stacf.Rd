@@ -22,7 +22,7 @@ stpacf(data, wlist, tlag.max=NULL, plot=TRUE, use.ggplot=TRUE)
 for \code{s} ranging from \code{0} to \code{length(wlist)} and \code{t} ranging from \code{1} to \code{tlag.max}.
 
 The autocorrelation function is computed as follows:
-\deqn{\hat{rho}_{l}(s) = frac{\hat{\gamma}_{l0}(s)} {\left( \hat{\gamma}_{ll}(0) \hat{\gamma}_{00}(s) \right) ^{1/2} }}{rho[l](s) = gamma[l0](s) / sqrt( (gamma[ll](0) * gamma[00](0)) )}
+\deqn{\hat{\rho}_{l}(s) = frac{\hat{\gamma}_{l0}(s)}{\left( \hat{\gamma}_{ll}(0) \hat{\gamma}_{00}(s) \right) ^{1/2} }}{rho[l](s) = gamma[l0](s) / sqrt( (gamma[ll](0) * gamma[00](0)) )}
 
 The partial autocorrelation functions are computed solving iteratively the Yule Walker equations for increasing time lags and space lags.
 

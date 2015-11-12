@@ -26,7 +26,7 @@ stcor.test(data, wlist, tlag=NULL, slag=NULL, fitdf=0)
 Since (Pfeifer and Deutsch, 1981) gives:
 \deqn{Var(\hat{\rho}_l(s)) \approx \frac{1}{N(T-s)}}{Var(rho[l](s)) ~ 1 / N(T-s)}
 We can extend Box-Pierce test statistic to space-time series:
-\deqn{N \sum (T-s) \hat{\rho}_l(s)^2 \sim \chi^2(slag \ times tlag)}{N \sum[(T-s)*rho[l](s)^2] ~ chisq(slag*tlag)}
+\deqn{N \sum (T-s) \hat{\rho}_l(s)^2 \sim \chi^2(slag \times tlag)}{N \sum[(T-s)*rho[l](s)^2] ~ chisq(slag*tlag)}
 
 \code{stcor.test} can be applied to a space-time series to test the null hypothesis of non correlation.
 

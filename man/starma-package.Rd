@@ -2,7 +2,7 @@
 \alias{starma-package}
 \docType{package}
 \title{
-STARMA modelling for space-time series
+Space Time AutoRegressive Moving Average (STARMA) modelling for space-time series
 }
 \description{
 This package aims to provide all the tools needed to identify, estimate and diagnose STARMA models for space-time series. 
@@ -14,8 +14,8 @@ Furthermore, the parameter estimation, which is usually computationally very exp
 \tabular{ll}{
 Package: \tab starma\cr
 Type: \tab Package\cr
-Version: \tab 0.2\cr
-Date: \tab 2014-06-05\cr
+Version: \tab 1.2\cr
+Date: \tab 2015-11-12\cr
 License: \tab GPL-2\cr
 }
 The three stages of the iterative model building procedure are as follow, after centering the space-time series with \code{\link{stcenter}}:
