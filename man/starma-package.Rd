@@ -72,11 +72,11 @@ klist <- list(order0=diag(25),
            order4=nb2mat(knb[[4]]))
 		   
 # Simulate a STARMA(2;1) process
-eps <- matrix(rnorm(2500), 200, 25)
+eps <- matrix(rnorm(200*25), 200, 25)
 star <- eps
 for (t in 3:200) {
-	star[t,] <- (.4*diag(25) + .25*klist[[2]]) \%*\% star[t-1,] +
-		(.25*diag(25)                ) \%*\% star[t-2,] +
+	star[t,] <- (.4*klist[[1]] + .25*klist[[2]]) \%*\% star[t-1,] +
+		(.25*klist[[1]]                ) \%*\% star[t-2,] +
 		(            - .3*klist[[2]]) \%*\% eps[t-1,] +
 		eps[t, ]
 }

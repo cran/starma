@@ -145,7 +145,7 @@ Rcpp::List kf(const arma::mat& data, const Rcpp::List& wlist, arma::mat eps, arm
 		// Prediction & update equations all-in-ones
 		ksi += V * H * Nm1 * nu;
 		V -= V * H * Nm1 * H.t() * V;
-		sigma2 = ((t - r) * sigma2 + Nm1 * nu * nu.t()) / (t + 1 - r);
+		sigma2 = ((t + 1 - r) * sigma2 + nu * nu.t()) / (t + 2 - r);
 		
 		// Estimate the residual
 		eps.row(t) = data.row(t) - ksi.t() * H;

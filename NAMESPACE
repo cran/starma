@@ -1,7 +1,7 @@
 useDynLib(starma)
 importFrom(Rcpp, evalCpp)
 import(ggplot2)
-import(scales)
+importFrom("scales", "pretty_breaks")
 importFrom("graphics", "lines", "par", "plot", "title")
 importFrom("stats", "complete.cases", "pchisq", "printCoefmat", "pt")
 exportPattern("^[[:alpha:]]+")
